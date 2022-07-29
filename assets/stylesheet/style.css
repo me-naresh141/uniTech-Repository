@@ -1,0 +1,675 @@
+@import './reset.css';
+@import './general.css';
+.header1 {
+  background-color: rgb(220, 60, 69);
+  padding: 0.6rem 0;
+  color: rgb(242, 242, 242);
+}
+.header1 a {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+}
+.header1 .fa-envelope {
+  margin-left: 1rem;
+}
+
+.header2 {
+  background-color: rgb(242, 242, 242);
+  padding: 1rem 0;
+}
+.header2 a {
+  color: rgb(27, 30, 36);
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.header2 .logo {
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+.header2 .logo-span {
+  color: rgb(220, 60, 69);
+}
+.header2 .active {
+  background-color: rgb(220, 60, 69);
+  padding: 1.4rem 0.3rem;
+  color: white;
+}
+.header2 .page-d-down {
+  display: none;
+  position: absolute;
+  background-color: rgb(242, 242, 242);
+  padding-right: 1rem;
+  line-height: 2;
+}
+.header2 .page-d-down a:hover {
+  color: red;
+}
+.header2 .page-d-down a {
+  color: orange;
+}
+.header2 .page:hover .page-d-down {
+  display: block;
+}
+.header2 .blog-d-down {
+  display: none;
+  position: absolute;
+  line-height: 2;
+  background-color: rgb(242, 242, 242);
+  padding-right: 1rem;
+}
+.header2 .blog-d-down a {
+  color: orange;
+}
+.header2 .blog:hover .blog-d-down {
+  display: block;
+}
+.header2 .blog:hover .blog-d-down a:hover {
+  color: rgb(220, 60, 69);
+}
+.header2 #toogle {
+  display: none;
+}
+.header2 .bars {
+  display: none;
+}
+
+.hero-div {
+  height: 40rem;
+  background-image: url("../banner-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+}
+.hero-div h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-left: 7rem;
+  margin-top: 9rem;
+}
+.hero-div span {
+  display: block;
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-transform: capitalize;
+}
+.hero-div a {
+  margin-left: 9rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(220, 60, 69);
+  color: rgb(255, 255, 255);
+}
+
+.services-section {
+  padding: 10rem 0;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.services-pera {
+  margin: 2rem;
+}
+
+.service-div {
+  padding: 2.5rem 0.7rem;
+  width: 23%;
+  border: 1px solid;
+  text-align: center;
+  line-height: 2;
+  border: 1px solid gray;
+  border-radius: 9px;
+}
+.service-div i {
+  font-size: 3rem;
+  color: rgb(220, 60, 69);
+}
+.service-div span {
+  font-size: 1.5rem;
+}
+
+.solution-div {
+  background-color: rgb(242, 242, 242);
+  text-align: center;
+  padding: 5rem;
+}
+.solution-div a {
+  padding: 0.5rem 1.5rem;
+}
+.solution-div p {
+  line-height: 1.5;
+}
+
+.consulting-section {
+  padding: 10rem 0;
+}
+
+.consulting-div1 {
+  width: 40%;
+  text-align: center;
+}
+.consulting-div1 i {
+  font-size: 5rem;
+  color: rgb(220, 60, 69);
+}
+.consulting-div1 p {
+  line-height: 1.5rem;
+}
+.consulting-div1 a {
+  padding: 0.6rem 1.5rem;
+}
+.consulting-div1 h2 {
+  line-height: 1.3;
+}
+
+.request-section {
+  background-color: rgb(220, 60, 69);
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+.request-section h3 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+.request-section p {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+.request-section a {
+  border: 1px solid white;
+  color: whitesmoke;
+  padding: 0.5rem 1rem;
+}
+
+.industry-leader-div {
+  width: 40%;
+  line-height: 1.5rem;
+}
+.industry-leader-div h2 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-transform: none;
+}
+
+.client-section {
+  padding: 5rem 0;
+}
+.client-section h2 {
+  margin: 8rem 0 4rem 0;
+}
+
+.client-div {
+  width: 100%;
+  gap: 3.5rem;
+  overflow: scroll;
+}
+.client-div img {
+  width: 20%;
+  filter: grayscale(1);
+}
+.client-div img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+}
+
+footer {
+  background-color: rgb(27, 30, 36);
+  padding: 5rem 0;
+}
+
+.footer-div span {
+  text-transform: capitalize;
+  color: rgb(242, 242, 242);
+  font-size: 1.5rem;
+}
+.footer-div a {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: rgb(242, 242, 242);
+}
+.footer-div i {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.footer-div ul {
+  margin-top: 1rem;
+}
+.footer-div .li {
+  margin-top: 1rem;
+}
+
+.span {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  color: rgb(242, 242, 242);
+  line-height: 1.4rem;
+  text-transform: capitalize;
+}
+
+.about-section .about-h2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(220, 60, 69);
+  text-align: center;
+}
+.about-section h2 {
+  padding-top: 3rem;
+}
+.about-section p {
+  padding-bottom: 3rem;
+}
+.about-section small {
+  color: rgb(220, 60, 69);
+}
+.about-section .seting-img {
+  width: 100%;
+}
+.about-section .about-icon-div i {
+  font-size: 2rem;
+  margin-right: 2rem;
+  color: pink;
+  margin-top: 1rem;
+}
+.about-section span {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.about-section .about-div-1 {
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+}
+
+.team-section {
+  background-color: rgb(242, 242, 242);
+  padding: 3rem 0;
+  margin: 5rem 0;
+}
+.team-section h2,
+.team-section p {
+  text-align: center;
+  line-height: 1.5;
+}
+.team-section .about-allimg-div {
+  margin-top: 4rem;
+}
+.team-section .about-team-img-div {
+  width: 22%;
+}
+.team-section span {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.team-section strong {
+  color: rgb(220, 60, 69);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.about-soloution-section .solution-div {
+  background-color: rgb(255, 255, 255);
+}
+.about-soloution-section a {
+  background-color: rgb(220, 60, 69);
+  color: rgb(255, 255, 255);
+}
+
+.about-client-section {
+  background-color: rgb(242, 242, 242);
+  padding: 3rem 0;
+}
+.about-client-section h2 {
+  margin-bottom: 4rem;
+}
+
+.services-img-div {
+  margin-top: 9rem;
+}
+
+.product-section .service-div {
+  border: none;
+}
+
+.deal-section {
+  background-color: rgb(220, 60, 69);
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+.deal-section h3 {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+.deal-section p {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+.deal-section a {
+  border: 1px solid white;
+  color: whitesmoke;
+  padding: 0.5rem 1rem;
+}
+.deal-section hr {
+  margin: 0 0.5rem;
+}
+
+.margin-b {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.services-footer {
+  margin-top: 8rem;
+}
+
+.contact-hero-section .location-div {
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  line-height: 2;
+}
+.contact-hero-section i {
+  font-size: 3rem;
+  color: rgb(220, 60, 69);
+  background-color: rgb(242, 242, 242);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.contact-hero-section small {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: rgb(27, 30, 36);
+  font-weight: 700;
+}
+.contact-hero-section p {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.contact-hero-section .industry-leader-div {
+  width: 100%;
+}
+.contact-hero-section .contact-div {
+  width: 70%;
+  margin: 0 auto;
+}
+.contact-hero-section .contact-div p {
+  line-height: 1.5;
+}
+
+.form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.form-section p {
+  margin-bottom: 5rem;
+}
+
+input {
+  padding: 1rem 20rem 2rem 2rem;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+textarea {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+}
+
+.send {
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 10rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(220, 60, 69);
+  margin-bottom: 5rem;
+}
+
+.pricing-section {
+  background-color: aliceblue;
+}
+.pricing-section .pricing-heading-div {
+  background-color: rgb(220, 60, 69);
+  padding: 2.5rem 0;
+}
+.pricing-section .pricing-heading-div h2 {
+  color: rgb(242, 242, 242);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.pricing-section .pricing-heading-div p {
+  color: rgb(242, 242, 242);
+  margin-top: 0.5rem;
+}
+.pricing-section .pricing-div {
+  line-height: 2.5;
+  padding-bottom: 5rem;
+}
+.pricing-section .pricing-div p {
+  text-align: center;
+  line-height: 2;
+  margin-top: 2rem;
+  color: gray;
+}
+.pricing-section small,
+.pricing-section span {
+  display: block;
+}
+.pricing-section .price-div:hover {
+  box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.5);
+  width: 29%;
+}
+.pricing-section .price-div {
+  width: 28%;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.447);
+  margin-top: 8rem;
+  background-color: rgb(255, 255, 255);
+}
+.pricing-section .price-div h3 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.pricing-section .price-div strong {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.pricing-section .price-div span {
+  font-size: 1.2rem;
+  color: gray;
+  text-transform: capitalize;
+}
+.pricing-section .price-div small {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.pricing-section .price-div li a {
+  color: rgb(27, 30, 36);
+}
+.pricing-section .price-div .reed-more-btn {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.question-section {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.question-section h4 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.question-section p {
+  color: gray;
+  margin: 1rem 0 5rem 0;
+}
+.question-section .question-div {
+  width: 45%;
+  height: 180px;
+  border: 1px solid rgba(128, 128, 128, 0.157);
+  padding: 2rem;
+  border-radius: 5px;
+}
+.question-section .question-div h5 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.question-section .question-div p {
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  .flex-mq {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-row-mq {
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+    width: 100%;
+  }
+  .header1 {
+    text-align: center;
+  }
+  .header1 li a i {
+    margin-top: 1rem;
+  }
+  .header2 a {
+    margin-left: 0rem;
+    font-size: 2rem;
+    color: rgb(17, 104, 175);
+  }
+  .header2 nav {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(127, 157, 255, 0.429);
+    padding-top: 100px;
+    text-align: center;
+  }
+  .header2 #toogle:checked ~ nav {
+    display: inline-block;
+  }
+  .header2 .bars {
+    font-size: 24px;
+    color: blue;
+    position: fixed;
+    right: 32px;
+    top: 70px;
+    z-index: 99;
+    display: block;
+  }
+  .header2 li {
+    margin: 2rem 0;
+  }
+  .hero-div {
+    height: 22rem;
+    width: 100%;
+  }
+  .hero-div h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  .hero-div span {
+    margin-left: 0rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .hero-div a {
+    padding: 0.5rem;
+    margin-left: 3rem;
+  }
+  .service-div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .solution-div {
+    width: 100%;
+  }
+  .solution-div h2 {
+    font-size: 1.5rem;
+  }
+  .consulting-div1 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .request-section {
+    padding: 2rem 0;
+  }
+  .request-section div {
+    margin-top: 1rem;
+  }
+  .industry-leader-div {
+    width: 100%;
+  }
+  .client-section {
+    padding: 1rem 0;
+  }
+  .client-section h2 {
+    margin: 3rem 0 3rem 0;
+  }
+  .footer-div-1 {
+    margin-bottom: 2rem;
+  }
+  .about-section h2 {
+    font-size: 2rem;
+  }
+  .team-section .about-team-img-div {
+    width: 100%;
+  }
+  .deal-section p {
+    margin: 1rem 0 1.5rem 0;
+  }
+  .contact-hero-section .location-div {
+    width: 100%;
+  }
+  .form-section iframe {
+    width: 100%;
+  }
+  .pricing-section .price-div {
+    width: 100%;
+    padding: 3rem 0;
+  }
+  .question-section .question-div {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
